@@ -11,7 +11,7 @@ function modelLoaded() {
 function draw() {
   image(video, 0, 0, 300, 300);
   classifier.classify(video, gotResult);
-} (3)
+}
 var previous_result = '';
 
 function gotResult(error, results) {
